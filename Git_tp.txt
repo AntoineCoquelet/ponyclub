@@ -1,0 +1,79 @@
+GIT TP
+
+Pony Club
+
+Ce lab est un exercice du cours "Débuter avec Git et Github" dispensé par Nicolas Bauwens (nbwns) à Bruxelles Formation Cepegra.
+
+Pour commencer
+
+Télécharger et installer Git
+Récupérer ce projet en local en téléchargeant le zip et en mettant son contenu dans un répertoire
+Lancer la console :)
+Les bases
+
+Configurer Git avec son nom et e-mail
+Se placer dans le répertoire et faire git init
+Faire un git status
+Faire un git add
+Refaire un git status
+Faire un git commit
+Refaire un git status
+Faire une modification dans un des fichiers
+Refaire un git status
+Faire un git diff
+Faire un git add et git commit
+Faire un git log
+Les branches
+
+Créer une branche
+Faire un git branch
+Faire un git checkout sur la nouvelle branche
+Faire des modifications, par exemple rajouter le poney Pimkie Pie à la liste (image ici http://mycouponlady.com/wp-content/uploads/2013/02/pinkiepie.png)
+Faire un git status
+Faire un git diff
+Faire un git add et git commit et regarder la page
+Refaire un git status
+Faire un git checkout sur master et regarder la page
+Faire un git diff master..<branche>
+Merge d'une branche sur master
+
+Faire un git checkout sur master
+Faire une modification dans le même fichier que celui édité dans la branche, mais pas au même endroit.
+Faire un git diff
+Faire un git add et git commit et regarder la page
+Faire un git checkout sur la branche et regarder la page.
+Le merge doit se faire depuis master. Retourner sur master avec un git checkout.
+Faire un git merge de la branche
+Regarder la page
+Effacer la branche
+Merge d'une branche sur master... avec un conflit !
+
+Créer une nouvelle branche
+Faire des modifications
+Faire un git add et git commit et regarder la page
+Faire un git checkout sur master
+Y faire des modifications aux mêmes endroits
+Faire un git add et git commit
+Faire un git merge de la branche
+Ouille ! Conflit x_x Il faut choisir manuellement le contenu à conserver
+Faire un git add et git commit et regarder la page
+Effacer la branche
+Pousser vers un remote repository
+
+Créer un remote repository sur Github
+Configurer le remote avec git remote add
+Regarder si un remote est configuré
+Faire un git push
+Aller voir le projet sur Github
+Récupérer le code d'un remote repository existant
+
+Trouver un projet sur Github (celui-ci peut-être ?)
+Se placer dans le répertoire qui contient les projets
+Faire un git clone pour initialiser un nouveau repository à partir d'un projet existant
+Activer les Github Pages
+
+Créer une branche gh-pages
+Se placer sur cette branche
+Faire un git push de cette branche
+Le site est en ligne, pour le voir il faut visiter http://username.github.io/remote_repository
+Félicitations, vous avez acquis les bases de Git et Github !
